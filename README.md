@@ -1,37 +1,86 @@
-Employees Insights-Dashboard-MySQL-PowerBI
-![image](https://github.com/Knob123/Employees-Insights-Dashboard/assets/137094560/1c1ec059-4be5-4cd7-9443-a75d72694069)
 
-![image](https://github.com/Knob123/Employees-Insights-Dashboard/assets/137094560/5125d45f-8d8f-4f10-86bf-e96213041b35)
+# 📊 Employee Insights Dashboard (MySQL + Power BI)
 
+An interactive **Employee Analytics Dashboard** built using **MySQL for data cleaning & analysis** and **Power BI for visualization**. This project provides deep insights into employee demographics, job distribution, and employment trends from **2000 to 2020** using a dataset of **22,000+ records**.
 
+🔗 **GitHub Repository:**  
+https://github.com/Krishan-Kant123/Employee-Insights-Dashboard
 
-**Data Used**
-Data - Employees data with over 22000 rows from the year 2000 to 2020.
+---
 
-Data Cleaning & Analysis - MySQL Workbench
+## 🛠️ Tools & Technologies Used
 
-Data Visualization - PowerBI
+- **Database & Data Cleaning:** MySQL Workbench  
+- **Data Visualization:** Microsoft Power BI  
+- **Dataset Size:** 22,000+ records  
+- **Time Period:** 2000 – 2020  
 
-**Questions**
-1. What is the gender breakdown of employees in the company?
-2. What is the race/ethnicity breakdown of employees in the company?
-3. What is the age distribution of employees in the company?
-4. How many employees work at headquarters versus remote locations?
-5. What is the average length of employment for employees who have been terminated?
-6. How does the gender distribution vary across departments and job titles?
-7. What is the distribution of job titles across the company?
-8. What is the distribution of employees across locations by state?
+---
 
+## 📂 Dataset Information
 
+- The dataset contains employee records including:
+  - Gender
+  - Race/Ethnicity
+  - Age
+  - Department
+  - Job Title
+  - Location (Headquarters & Remote)
+  - State
+  - Employment Status (Active/Terminated)
 
-**Summary of Findings**
+- **Data Cleaning Steps Performed:**
+  - Removed invalid records with negative ages
+  - Filtered employees aged **18 years and above**
+  - Handled inconsistent values using SQL queries  
+  - **967 incorrect records were excluded**
 
-* There are more male employees
-* White race is the most dominant while Native Hawaiian and American Indian are the least dominant.
-* The youngest employee is 20 years old and the oldest is 57 years old
-* 5 age groups were created (18-24, 25-34, 35-44, 45-54, 55-64). A large number of employees were between 25-34 followed by 35-44 while the smallest group was 55-64.
-* A large number of employees work at the headquarters versus remotely.
-* The average length of employment for terminated employees is around 7 years.
-* The gender distribution across departments is fairly balanced but there are generally more male than female employees.
-* A large number of employees come from the state of Ohio.
-* Some records had negative ages and these were excluded during querying(967 records). Ages used were 18 years and above.
+---
+
+## ❓ Business Questions Answered
+
+1. What is the gender breakdown of employees in the company?  
+2. What is the race/ethnicity distribution of employees?  
+3. What is the age distribution of employees?  
+4. How many employees work at headquarters vs remote locations?  
+5. What is the average tenure of terminated employees?  
+6. How does gender distribution vary across departments and job titles?  
+7. What is the distribution of job titles across the company?  
+8. How are employees distributed across different states?  
+
+---
+
+## 📈 Key Insights & Findings
+
+- 👨‍💼 Male employees are more in number compared to female employees.
+- 🧑🏻‍🤝‍🧑🏽 White race is the most dominant ethnic group.
+- 🪶 Native Hawaiian and American Indian groups are the least represented.
+- 🎂 Employee ages range from **20 to 57 years**.
+- 👥 Age Groups Created:
+  - 18–24  
+  - 25–34  
+  - 35–44  
+  - 45–54  
+  - 55–64  
+- The largest age group is **25–34**, followed by **35–44**.
+- 🏢 Most employees work at **headquarters** rather than remotely.
+- ⏳ The **average tenure of terminated employees is ~7 years**.
+- ⚖️ Gender distribution across departments is fairly balanced, but males dominate slightly.
+- 📍 A large number of employees belong to the state of **Ohio**.
+
+---
+
+## ✅ Conclusion
+
+This project demonstrates how **SQL and Power BI can work together** to transform raw HR data into meaningful insights. It can help organizations:
+
+- Improve workforce planning
+- Understand employee diversity
+- Track employment trends
+- Make data-driven HR decisions
+
+---
+
+## ⭐ If You Like This Project
+
+Don’t forget to **star ⭐ the repository** and share it with others!
