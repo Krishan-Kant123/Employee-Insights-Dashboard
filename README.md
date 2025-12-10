@@ -3,6 +3,10 @@
 
 An interactive **Employee Analytics Dashboard** built using **MySQL for data cleaning & analysis** and **Power BI for visualization**. This project provides deep insights into employee demographics, job distribution, and employment trends from **2000 to 2020** using a dataset of **22,000+ records**.
 
+![image](https://github.com/Knob123/Employees-Insights-Dashboard/assets/137094560/1c1ec059-4be5-4cd7-9443-a75d72694069)
+
+![image](https://github.com/Knob123/Employees-Insights-Dashboard/assets/137094560/5125d45f-8d8f-4f10-86bf-e96213041b35)
+
 🔗 **GitHub Repository:**  
 https://github.com/Krishan-Kant123/Employee-Insights-Dashboard
 
